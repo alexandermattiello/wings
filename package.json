@@ -1,0 +1,24 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandermattiello/wings.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexandermattiello/wings/issues"
+  },
+  "homepage": "https://github.com/alexandermattiello/wings#readme",
+  "description": ""
+}
