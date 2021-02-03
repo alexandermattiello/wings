@@ -5,46 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wings</title>
+    <!-- LINKS -->
     <link rel="stylesheet" href="https://alexandermattiello.github.io/wings/css/style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/style.css">
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav>
+            <!--NABVAR-->
+
+    <nav class="topnav">
         <ul class="container-fluid">
             <li class="logo"><img src="images/wings front.svg" alt="wings" height="100" width="150"></li>
-            <li class="hamburguesa"><span class="fas fa-bars fa-2x"></span></li>
+             <label for="nav-toggle" class="burger">
+                 <div class="line"></div>
+                 <div class="line"></div>
+                 <div class="line"></div>
+             </label>
+             <input id="nav-toggle" type="checkbox">
             <div class="items">
-                <li class="home"><a href="#" id="home">Home</a></li>
-                <li class="services"><a href="#" id="services">Services</a></li>
-                <li class="designs"><a href="#" id="designs">Designs</a></li>
-                <li class="contact"><a href="#" id="contact">Contact</a></li>
+                <li class="home"><a href="#home" id="home">Home</a></li>
+                <li class="services"><a href="#services" id="services">Services</a></li>
+                <li class="designs"><a href="#designs" id="designs">Designs</a></li>
+                <li class="contact"><a href="#contact" id="contact">Contact</a></li>
             </div>
             <li class="search-icon">
                 <input type="search" placeholder="find designs">
-                <span class="fas fa-search fa-2x fa-fw"></span>
-                <!-- Descargado de https://www.w3schools.com/icons/fontawesome5_intro.asp-->
+                <span class="fas fa-search fa-2x fa-fw"></span><!-- Lupa - Descargado de https://www.w3schools.com/icons/fontawesome5_intro.asp-->
             </li>
         </ul>
     </nav>
 
-    <div class="letras">
-        <img src="images/WINGS LETRAS PRO.svg" alt="wings letras" width="1000" height="800">
-    </div>
-    <!-- link jquery boostrap -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+             <!-- BODY -->
+    <section id="back" class="container-fluid">
+    <div class="letras"><img src="images/WINGS LETRAS PRO.svg" alt="wings letras" width="1000" height="800"></div>
+    </section>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+             <!-- BOOTSTRAP -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script> src="js/bootstrap.bundle.min.js"</script><!--link local js-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/navbar-movile.js"></script>
 </body>
 
 </html>

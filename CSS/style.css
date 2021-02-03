@@ -22,6 +22,9 @@ nav ul {
   flex-direction: row;
   justify-content: flex-start;
 }
+nav ul li button {
+  position: absolute;
+}
 nav ul li .fa-bars {
   display: none;
 }
@@ -89,60 +92,97 @@ nav ul .search-icon input {
   color: #000;
 }
 
+#back {
+  background-image: url(https://i.ibb.co/7v48jVg/back-image.jpg);
+  position: absolute;
+  z-index: -1000;
+  width: 100%;
+  height: 6000px;
+}
+
 .letras {
-  background-color: #232f3e;
+  position: relative;
 }
 .letras img {
   display: block;
   width: 100%;
   object-fit: contain;
+  position: fixed;
+  top: -10%;
+  left: 1%;
 }
 
 @media screen and (max-width: 970px) {
+  .topnav .items {
+    float: none;
+    position: fixed;
+    left: -260px;
+    z-index: 9;
+    display: block;
+    margin-top: 80px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20%;
+    border: 2px solid #232f3e;
+    transition: all 0.5s ease-in-out;
+  }
+
   nav {
     padding-bottom: 5px;
+    position: fixed;
+    width: 100%;
   }
-  nav ul div.items a {
+  nav :checked ~ .items {
+    left: 0px;
+  }
+
+  nav ul div.items li {
+    height: 50px;
+    margin-right: 50px;
+  }
+
+  ul div.items :hover {
     display: none;
   }
-  nav ul div.items :hover {
-    display: none;
-  }
-  nav ul .search-icon {
+
+  ul .search-icon {
     margin-left: 39%;
     right: 8%;
   }
 
-  .logo img {
-    display: block;
-    position: absolute;
-    right: 60%;
-  }
-
-  ul li .fa-bars {
-    display: inline-block !important;
-    margin-top: 34px;
-    position: absolute;
-    left: 3%;
-  }
-
-  .home {
-    display: none;
-  }
-
-  .services {
-    display: none;
-  }
-
-  .designs {
-    display: none;
-  }
-
   .contact {
-    display: none;
+    margin-bottom: 15px;
+  }
+
+  .logo {
+    position: fixed;
+    left: 12%;
+    margin-right: 30%;
+  }
+
+  .burger {
+    display: inline-block !important;
+    margin-top: 25px;
+    position: absolute;
+    left: 2%;
+    border: 2px solid #232f3e;
+    padding: 4px 1px;
+    border-radius: 7px;
+  }
+
+  .line {
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  nav :checked ~ .burger .line:nth-child(1) {
+    transform: translateY(30px);
   }
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 490px) {
   .logo img {
     display: none;
   }
