@@ -43,18 +43,24 @@ nav {
                     font-size: 18px;
                     padding: 0 15px;
                     margin-right: 70px;
+                    -webkit-transition: color .5s linear;
+                    -moz-transition: color .5s linear;
+                    -ms-transition: color .5s linear;
+                    -o-transition: color .5s linear;
+                    transition: color .5s linear;
                 }
                 :hover {
-                    color: cyan;
-                    box-shadow: 0 0 5px #33ffff,
+                    color: deepskyblue;
+                    box-shadow: 0 0 5px deepskyblue,
                                 0 0 5px #66ffff;
+                                border-radius: 8px;
                 }
             }
             }
             // BUTTON LOGIN
             #login {
                 position: absolute;
-                top: 37%;
+                top: 42%;
                 right: 3%;
             }
 }
@@ -112,7 +118,8 @@ nav {
 	color: #fff;
 	font-size: 48px;
 	text-align: center;
-	padding-bottom: 22px;
+    padding-bottom: 22px;
+    text-shadow: 11px -3px 14px deepskyblue;
 }
 
 .find-box h4 {
@@ -121,18 +128,20 @@ nav {
 	color: #fff;
 	font-size: 22px;
 	text-align: center;
-	padding-bottom: 22px;
+    padding-bottom: 22px;
 }
 .form-sh .selectpicker,
 .form-sh input {
 	background: none;
-	border: none;
+	border:none;
 	border-bottom: 1px solid #ffffff;
 	width: 100%;
 	min-height: 55px;
 	color: #fff;
 	font-size: 22px;
-	font-weight: 300;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 11px -3px 10px black;
 }
 .form-sh .selectpicker option {
     color: black;
@@ -238,6 +247,11 @@ nav {
 .form-sh .bootstrap-select.btn-group .dropdown-menu li a:focus {
 	background: #1d99ff;
 }
+
+
+//----------------------------------------------------------------------------------------------
+//------------------------------ PRODUCTS DESIGNS-----------------------------------------------
+
 
 .product-sh p {
 	clear: both;

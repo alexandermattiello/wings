@@ -42,14 +42,20 @@ nav ul div.items a {
   font-size: 18px;
   padding: 0 15px;
   margin-right: 70px;
+  -webkit-transition: color 0.5s linear;
+  -moz-transition: color 0.5s linear;
+  -ms-transition: color 0.5s linear;
+  -o-transition: color 0.5s linear;
+  transition: color 0.5s linear;
 }
 nav ul div.items :hover {
-  color: cyan;
-  box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff;
+  color: deepskyblue;
+  box-shadow: 0 0 5px deepskyblue, 0 0 5px #66ffff;
+  border-radius: 8px;
 }
 nav #login {
   position: absolute;
-  top: 37%;
+  top: 42%;
   right: 3%;
 }
 
@@ -108,6 +114,7 @@ nav #login {
   font-size: 48px;
   text-align: center;
   padding-bottom: 22px;
+  text-shadow: 11px -3px 14px deepskyblue;
 }
 
 .find-box h4 {
@@ -129,6 +136,8 @@ nav #login {
   color: #fff;
   font-size: 22px;
   font-weight: 300;
+  text-align: center;
+  text-shadow: 11px -3px 10px black;
 }
 
 .form-sh .selectpicker option {
