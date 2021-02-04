@@ -33,9 +33,9 @@
              </label>
              <input id="nav-toggle" type="checkbox">
             <div class="items">
-                <li class="home"><a href="#home" id="home">Home</a></li>
+               <li class="designs"><a href="#designs" id="designs">Designs</a></li>
                 <li class="services"><a href="#services" id="services">Services</a></li>
-                <li class="designs"><a href="#designs" id="designs">Designs</a></li>
+                <li class="home"><a href="#home" id="home">About</a></li>
                 <li class="contact"><a href="#contact" id="contact">Contact</a></li>
             </div>
             <button  onclick="document.getElementById('01').style.display='block'" style="width:auto;" type="button" class="btn btn-outline-info" id="login">Log in</button>                                                
@@ -71,17 +71,6 @@
                  </div>
              </div>
           </div>
-          <script>
-           // Get the modal
-           var modal = document.getElementById('01');
-           
-           // When the user clicks anywhere outside of the modal, close it
-           window.onclick = function(event) {
-               if (event.target == modal) {
-                   modal.style.display = "none";
-               }
-           }
-           </script>
         </ul>
     </nav>
              <!-- Back Image -->
@@ -197,7 +186,19 @@
            </div>
         </div>
      </div>
-
+     
+     <!-- LogIn Form -->
+     <script>
+      // Get the modal
+      var modal = document.getElementById('01');
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+      }
+      </script>
              <!-- BOOTSTRAP -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
