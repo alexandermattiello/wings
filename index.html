@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wings</title>
-    <!-- LINKS -->
-    <link rel="stylesheet" href="https://alexandermattiello.github.io/wings/css/style.css">
+    <!--External links -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
+    <!-- main css -->
     <link rel="stylesheet" href="css/style.css">
+    <!--local bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--animate css-->
+    <link rel="stylesheet" href="css/animate-wow.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -35,17 +38,125 @@
                 <li class="designs"><a href="#designs" id="designs">Designs</a></li>
                 <li class="contact"><a href="#contact" id="contact">Contact</a></li>
             </div>
-            <li class="search-icon">
-                <input type="search" placeholder="find designs">
-                <span class="fas fa-search fa-2x fa-fw"></span><!-- Lupa - Descargado de https://www.w3schools.com/icons/fontawesome5_intro.asp-->
+            <li>
+               <button type="button" class="btn btn-outline-info" id="login">Log in</button>
             </li>
         </ul>
     </nav>
 
-             <!-- BODY -->
+             <!-- Back Image -->
     <section id="back" class="container-fluid">
     <div class="letras"><img src="images/WINGS LETRAS PRO.svg" alt="wings letras" width="1000" height="800"></div>
     </section>
+             <!-- Products -->
+    <div class="page-content-product">
+        <div class="main-product">
+           <div class="container">
+              <div class="row clearfix">
+                 <div class="find-box">
+                    <h1>Find your design<br> here.</h1>
+                    <h4>It has never been easier.</h4>
+                    <div class="product-sh">
+                       <div class="col-sm-6">
+                          <div class="form-sh">
+                             <input type="text" placeholder="Search something you love" >
+                          </div>
+                       </div>
+                       <div class="col-sm-3">
+                          <div class="form-sh">
+                             <select class="selectpicker">
+                                <option>All</option>
+                                <option>Art</option>
+                                <option>Characters</option>
+                                <option>Fashion</option>
+                                <option>Home</option>
+                                <option>Games</option>
+                                <option>Life Hacks</option>
+                                <option>Naughty</option>
+                                <option>Tools</option>
+                                <option>Tecnology</option>
+                             </select>
+                          </div>
+                       </div>
+                       <div class="col-sm-3">
+                          <div class="form-sh"> <a class="btn" href="#">Search</a> </div>
+                       </div>
+                       <p>Or simply<a href="#"> click here </a> and get inspired!</p>
+                    </div>
+                 </div>
+              </div>
+              <div class="row clearfix">
+                 <div class="col-lg-3 col-sm-6 col-md-3">
+                    <a href="productpage.html">
+                       <div class="box-img">
+                          <h4>Product</h4>
+                          <img src="images/product/1.png" alt="" />
+                       </div>
+                    </a>
+                 </div>
+                 <div class="col-lg-3 col-sm-6 col-md-3">
+                    <a href="productpage.html">
+                       <div class="box-img">
+                          <h4>Product</h4>
+                          <img src="images/product/2.png" alt="" />
+                       </div>
+                    </a>
+                 </div>
+                 <div class="col-lg-3 col-sm-6 col-md-3">
+                    <a href="productpage.html">
+                       <div class="box-img">
+                          <h4>Product</h4>
+                          <img src="images/product/4.png" alt="" />
+                       </div>
+                    </a>
+                 </div>
+                 <div class="col-lg-3 col-sm-6 col-md-3">
+                    <a href="productpage.html">
+                       <div class="box-img">
+                          <h4>Product</h4>
+                          <img src="images/product/5.png" alt="" />
+                       </div>
+                    </a>
+                 </div>
+                 <div class="col-lg-3 col-sm-6 col-md-3">
+                    <a href="productpage.html">
+                       <div class="box-img">
+                          <h4>Product</h4>
+                          <img src="images/product/10.png" alt="" />
+                       </div>
+                    </a>
+                 </div>
+                 <div class="col-lg-3 col-sm-6 col-md-3">
+                    <a href="productpage.html">
+                       <div class="box-img">
+                          <h4>Product</h4>
+                          <img src="images/product/11.png" alt="" />
+                       </div>
+                    </a>
+                 </div>
+                 <div class="col-lg-3 col-sm-6 col-md-3">
+                    <a href="productpage.html">
+                       <div class="box-img">
+                          <h4>Product</h4>
+                          <img src="images/product/12.png" alt="" />
+                       </div>
+                    </a>
+                 </div>
+                 <div class="col-lg-3 col-sm-6 col-md-3">
+                    <a href="productpage.html">
+                       <div class="box-img">
+                          <h4>Product</h4>
+                          <img src="images/product/13.png" alt="" />
+                       </div>
+                    </a>
+                 </div>
+                 <div class="categories_link">
+                    <a href="#">Browse all categories here</a>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
 
              <!-- BOOTSTRAP -->
 
@@ -56,6 +167,15 @@
     <script> src="js/bootstrap.bundle.min.js"</script><!--link local js-->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="js/navbar-movile.js"></script>
+          <!--main js--> 
+          <script src="js/jquery-1.12.4.min.js"></script> 
+          <!--bootstrap js--> 
+          <script src="js/bootstrap.min.js"></script> 
+          <script src="js/bootstrap-select.min.js"></script>
+          <script src="js/slick.min.js"></script> 
+          <script src="js/wow.min.js"></script>
+          <!--custom js--> 
+          <script src="js/custom.js"></script>
 </body>
 
 </html>
