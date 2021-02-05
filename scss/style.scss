@@ -58,7 +58,7 @@ nav {
             }
             }
     }
-.home {
+.about {
     width: 85px;
 }
 .services {
@@ -617,6 +617,7 @@ a {
 	font-family: 'Raleway', sans-serif;
 	padding-right: 140px;
 	border-radius: 50px;
+    margin-bottom: 10px;
 }
 
 .form-box button {
@@ -798,9 +799,7 @@ a {
         height: 50px;
         margin-right: 50px;
       }
-        ul div.items :hover {
-            display: none;
-        }
+      
         ul .search-icon {
             margin-left: 39%;
             right: 8%;
@@ -808,7 +807,11 @@ a {
         .contact {
             margin-bottom: 15px;
         }
-    
+        nav ul div.items :hover {
+            color: deepskyblue;
+            box-shadow: 0 0 0px deepskyblue, 0 0 0px #66ffff;
+            border-radius: 8px;
+        }
     .logo {
         position: fixed;
         left: 12%;
