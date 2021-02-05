@@ -593,6 +593,7 @@ a {
 
 .footer-top h2 {
 	color: #fff;
+    margin-top: auto;
 	font-size: 22px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
@@ -642,6 +643,7 @@ a {
 	font-size: 18px;
 	font-weight: 300;
 	padding: 4px 0px;
+    margin-top: auto;
 }
 
 .help-box-f p {
@@ -656,6 +658,7 @@ a {
 .footer-link-box {
 	padding-top: 55px;
 	padding-bottom: 55px;
+    width: -webkit-fill-available;
 }
 
 
@@ -727,12 +730,12 @@ a {
 .copyright {
     background: #12345b;
     position: relative;
-    height: 75px;
+    height: 200px;
 }
 
 .copyright p {
 	margin-top: 20px;
-	font-size: 14px;
+	font-size: 22px;
 	color: white;
 }
 
@@ -751,10 +754,7 @@ a {
 
 .copyright .socials {
 	float: right;
-	padding: 15px 0px;
-}
-
-.copyright .socials {
+	padding: 15px 0 0 0;
 	margin: 0px;
 }
 
@@ -764,7 +764,7 @@ a {
 
 .copyright .socials li a {
 	color: #09294c;
-	font-size: 18px;
+	font-size: 32px;
 }
 
 // ------------------------------------------- MEDIA QUERIES ------------------------------------------

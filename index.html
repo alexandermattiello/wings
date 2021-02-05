@@ -15,9 +15,12 @@
     <!--animate css-->
     <link rel="stylesheet" href="css/animate-wow.css">
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- smoot scroll -->
+    <script src="js/smooth-scroll.min.js"></script>
+    
 </head>
 
 <body>
@@ -33,10 +36,10 @@
              </label>
              <input id="nav-toggle" type="checkbox">
             <div class="items">
-               <li class="designs"><a href="#designs" id="designs">Designs</a></li>
-                <li class="services"><a href="#services" id="services">Services</a></li>
-                <li class="home"><a href="#home" id="home">About</a></li>
-                <li class="contact"><a href="#contact" id="contact">Contact</a></li>
+               <li class="designs"><a href="#designs">Designs</a></li>
+                <li class="services"><a href="#services">Services</a></li>
+                <li class="home"><a href="#about">About</a></li>
+                <li class="contact"><a href="#contact">Contact</a></li>
             </div>
             <button  onclick="document.getElementById('01').style.display='block'" style="width:auto;" type="button" class="btn btn-outline-info" id="login">Log in</button>                                                
             <div class="modal animate" id="01">
@@ -110,7 +113,7 @@
                        <div class="col-sm-3">
                           <div class="form-sh"> <a class="btn" href="#">Search</a> </div>
                        </div>
-                       <p>Or simply<a href="#"> click here </a> and get inspired!</p>
+                       <p id="designs">Or simply<a href="#"> click here </a> and get inspired!</p>
                     </div>
                  </div>
               </div>
@@ -119,7 +122,7 @@
                     <a href="productpage.html">
                        <div class="box-img">
                           <h4>Product</h4>
-                          <img src="images/product/1.png" alt="" />
+                          <img src="images/product/1.png" alt="img1" />
                        </div>
                     </a>
                  </div>
@@ -127,7 +130,7 @@
                     <a href="productpage.html">
                        <div class="box-img">
                           <h4>Product</h4>
-                          <img src="images/product/2.png" alt="" />
+                          <img src="images/product/2.png" alt="img2" />
                        </div>
                     </a>
                  </div>
@@ -135,7 +138,7 @@
                     <a href="productpage.html">
                        <div class="box-img">
                           <h4>Product</h4>
-                          <img src="images/product/4.png" alt="" />
+                          <img src="images/product/4.png" alt="img3" />
                        </div>
                     </a>
                  </div>
@@ -143,7 +146,7 @@
                     <a href="productpage.html">
                        <div class="box-img">
                           <h4>Product</h4>
-                          <img src="images/product/5.png" alt="" />
+                          <img src="images/product/5.png" alt="img4" />
                        </div>
                     </a>
                  </div>
@@ -151,7 +154,7 @@
                     <a href="productpage.html">
                        <div class="box-img">
                           <h4>Product</h4>
-                          <img src="images/product/10.png" alt="" />
+                          <img src="images/product/10.png" alt="img10" />
                        </div>
                     </a>
                  </div>
@@ -159,7 +162,7 @@
                     <a href="productpage.html">
                        <div class="box-img">
                           <h4>Product</h4>
-                          <img src="images/product/11.png" alt="" />
+                          <img src="images/product/11.png" alt="img11" />
                        </div>
                     </a>
                  </div>
@@ -167,7 +170,7 @@
                     <a href="productpage.html">
                        <div class="box-img">
                           <h4>Product</h4>
-                          <img src="images/product/12.png" alt="" />
+                          <img src="images/product/12.png" alt="img12" />
                        </div>
                     </a>
                  </div>
@@ -175,7 +178,7 @@
                     <a href="productpage.html">
                        <div class="box-img">
                           <h4>Product</h4>
-                          <img src="images/product/13.png" alt="" />
+                          <img src="images/product/13.png" alt="img13" />
                        </div>
                     </a>
                  </div>
@@ -186,6 +189,17 @@
            </div>
         </div>
      </div>
+     <!------------------------------------------------------------------------------------
+                                          ABOUT US 
+      ------------------------------------------------------------------------------------->
+     <section id="about">
+        <h4>Why do we design things?</h4>
+        <b>Because there is nothing more satisfying to create.</b>
+        <p>Welcome to wings, here you can promote your 3D designs, look for a model
+         to print or just get inspired to create something new and be part of a
+        amazing community.</p>
+
+     </section>
                                <!-----------------------------------
                                              FOOTER 
                                  ----------------------------------->
@@ -201,14 +215,13 @@
                   </div>
                   <div class="col-md-6 col-sm-6">
                      <div class="form-box">
-                        <input type="text" placeholder="Enter yopur e-mail" />
+                        <input type="text" placeholder="Enter your e-mail" />
                         <button>Continue</button>
                      </div>
                   </div>
                   <div class="col-md-4 col-sm-12">
                      <div class="help-box-f">
                         <h4>Question? Call us on +54 221 579 6360 for help</h4>
-                        <p>Easy setup</p>
                      </div>
                   </div>
                </div>
@@ -218,7 +231,7 @@
                         <div class="col-sm-4">
                            <h2>SELL ON WINGS</h2>
                            <ul>
-                              <li><a href="#">Create account</a></li>
+                              <li><a href="#login">Create account</a></li>
                               <li><a href="howitworks.html">How it works suppliers</a></li>
                               <li><a href="pricing.html">Pricing</a></li>
                               <li><a href="#">FAQ for Suppliers</a></li>
@@ -227,7 +240,7 @@
                         <div class="col-sm-4">
                            <h2>BUY ON WINGS</h2>
                            <ul>
-                              <li><a href="#">Create account</a></li>
+                              <li><a href="#login">Create account</a></li>
                               <li><a href="#">How it works buyers</a></li>
                               <li><a href="#">Categories</a></li>
                               <li><a href="#">FAQ for buyers</a></li>
@@ -245,8 +258,6 @@
                         </div>
                      </div>
                   </div>
-                  <div class="col-md-6 col-sm-6">
-                  </div>
                </div>
             </div>
          </div>
@@ -255,28 +266,33 @@
          <div class="container">
             <div class="row">
                <div class="col-md-8">
-                  <p><img width="120" src="images/wings front.svg" alt="copyright"> All Rights Reserved Wins Designs © 2021</p>
+                  <p><img width="120" src="images/wings front.svg" alt="copyright"> All Rights Reserved Wings Designs © 2021</p>
                </div>
                <div class="col-md-4">
                   <ul class="list-inline socials">
                      <li>
-                        <a href="">
+                        <a href="https://www.facebook.com/wings3dprints" target="_blank">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
                      </li>
                      <li>
-                        <a href="">
+                        <a href="sin-hacer" target="_blank">
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
                      </li>
                      <li>
-                        <a href="">
+                        <a href="https://www.instagram.com/wings3d/?hl=es-la" target="_blank">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                      </li>
                      <li>
-                        <a href="">
+                        <a href="sin-hacer" target="_blank">
                         <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="https://www.google.com.ar/maps/place/Wings+3D+Designs/@-34.8461966,-58.0848732,19z/data=!4m5!3m4!1s0x95a2df9bb38f3fbb:0x735f13c92d280fd0!8m2!3d-38.4193299!4d-63.5989206?hl=es-419&authuser=0" target="_blank">
+                        <i class="fa fa-google" aria-hidden="true"></i>
                         </a>
                      </li>
                   </ul>
@@ -288,18 +304,27 @@
    <!-- ----------------------------------------------------------------------------------------------------------------------------------
                                                       SCRIPTS
    -------------------------------------------------------------------------------------------------------------------------------- -->
-     <!-- LogIn Form -->
-     <script>
-      // Get the modal
+    <!-- smoot scroll -->
+   
+   <script>
+      var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 800
+});
+   </script>
+   
+   <!-- LogIn Form -->
+   
+   <script>
+   // Get the modal
       var modal = document.getElementById('01');
       
-      // When the user clicks anywhere outside of the modal, close it
+   // When the user clicks anywhere outside of the modal, close it
       window.onclick = function(event) {
           if (event.target == modal) {
               modal.style.display = "none";
           }
       }
-      </script>
+   </script>
              <!-- BOOTSTRAP -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -307,7 +332,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" 
      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <script> src="js/bootstrap.bundle.min.js"</script><!--link local js-->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="js/navbar-movile.js"></script>
           <!--main js--> 
           <script src="js/jquery-1.12.4.min.js"></script> 
