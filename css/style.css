@@ -578,8 +578,22 @@ a {
   background-position: center center;
 }
 
+/* -------------------------------------------------------------------
+    About Us
+---------------------------------------------------------------------*/
+#about {
+  font-family: "Montserrat", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-color: rgba(9, 39, 73, 0.5);
+}
+#about h4, #about b, #about p {
+  color: rgba(93, 73, 143, 0.575);
+  font-size: 40px;
+  font-weight: 900;
+  text-shadow: -0.0075em 0.0075em 0 #02d5fe, 0.005em 0.005em 0 #a6a6f6, 0.01em 0.01em 0 #aaaaf7, 0.015em 0.015em #afaff7, 0.02em 0.02em 0 #b3b3f8, 0.025em 0.025em 0 #b8b8f8, 0.03em 0.03em 0 #bcbcf8, 0.035em 0.035em 0 #c1c1f9;
+}
+
 /*------------------------------------------------------------- 
-	7. FOOTER
+	 FOOTER
 -------------------------------------------------------------*/
 .main-footer {
   background-color: rgba(0, 43, 83, 0.7);
@@ -807,7 +821,7 @@ a {
   }
 
   nav ul div.items :hover {
-    color: deepskyblue;
+    color: deepskyblue !important;
     box-shadow: 0 0 0px deepskyblue, 0 0 0px #66ffff;
     border-radius: 8px;
   }

@@ -573,9 +573,37 @@ a {
 	background-position: center center;
 }
 
+/* -------------------------------------------------------------------
+    About Us
+---------------------------------------------------------------------*/
+
+#about {
+    font-family: $font1;
+	background-color: hsl(212, 79%, 16%, 0.5);
+    h4, b, p {
+        color: mix(rgba(126, 95, 95, 0.5), hsl(240, 82%, 52%), 85%);
+	font-size: 40px ;  
+	font-weight: 900;
+	text-shadow: 
+		-0.0075em 0.0075em 0 mix(rgb(0, 225, 255), hsl(240, 82%, 52%), 94%),
+		0.005em 0.005em 0 mix(rgb(255, 255, 255), hsl(240, 82%, 52%), 60%),
+		0.01em 0.01em 0 mix(rgb(255, 255, 255), hsl(240, 82%, 52%), 62%), 
+		0.015em 0.015em mix(rgb(255, 255, 255), hsl(240, 82%, 52%), 64%), 
+		0.02em 0.02em 0 mix(rgb(255, 255, 255), hsl(240, 82%, 52%), 66%), 
+		0.025em 0.025em 0 mix(rgb(255, 255, 255), hsl(240, 82%, 52%), 68%),
+		0.03em 0.03em 0 mix(rgb(255, 255, 255), hsl(240, 82%, 52%), 70%),
+		0.035em 0.035em 0 mix(rgb(255, 255, 255), hsl(240, 82%, 52%), 72%);
+
+    }
+}
+
+
+
+
+
 
 /*------------------------------------------------------------- 
-	7. FOOTER
+	 FOOTER
 -------------------------------------------------------------*/
 
 .main-footer {
@@ -808,7 +836,7 @@ a {
             margin-bottom: 15px;
         }
         nav ul div.items :hover {
-            color: deepskyblue;
+            color: deepskyblue!important;
             box-shadow: 0 0 0px deepskyblue, 0 0 0px #66ffff;
             border-radius: 8px;
         }
