@@ -9,7 +9,48 @@ $font1:'Montserrat','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Luc
     font-family: $font1;
     margin-bottom: -6px;
 }
+img {
+	max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0px;
+	padding: 0px;
+}
+ul,
+ol {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+a,
+a:hover,
+a:focus {
+	-webkit-text-decoration: none;
+	-moz-text-decoration: none;
+	-ms-text-decoration: none;
+	-o-text-decoration: none;
+	text-decoration: none;
+	transition: ease all 0.5s;
+}
+
+
 // --------------------------------------------NAVBAR--------------------------------------------------
+
 nav {
     background:#131921;
     border: 1px solid $color2;
