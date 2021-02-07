@@ -120,6 +120,7 @@ nav {
 }
 .letras {
     position: relative;
+    z-index: -500;
     img {
         display: block;
         width: 100%;
@@ -274,7 +275,6 @@ nav {
 }
 
 .login-space .group input[data-type="password"] {
-    text-security: circle;
     -webkit-text-security: circle;
 }
 
@@ -557,6 +557,7 @@ a {
 	background: #051d36;
 	text-align: center;
 	padding-bottom: 30px;
+    border-radius: 30px;
 	min-height: 280px;
 	margin-bottom: 30px;
 	position: relative;

@@ -120,6 +120,7 @@ nav ul div.items :hover {
 
 .letras {
   position: relative;
+  z-index: -500;
 }
 .letras img {
   display: block;
@@ -290,7 +291,6 @@ nav ul div.items :hover {
 }
 
 .login-space .group input[data-type=password] {
-  text-security: circle;
   -webkit-text-security: circle;
 }
 
@@ -568,6 +568,7 @@ a {
   background: #051d36;
   text-align: center;
   padding-bottom: 30px;
+  border-radius: 30px;
   min-height: 280px;
   margin-bottom: 30px;
   position: relative;
