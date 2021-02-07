@@ -898,10 +898,6 @@ a {
     left: 20%;
   }
 
-  nav ul div.items :hover {
-    display: none;
-  }
-
   nav ul .search-icon {
     right: 2%;
   }
@@ -910,10 +906,6 @@ a {
   .logo img {
     position: fixed;
     left: 15%;
-  }
-
-  nav ul div.items :hover {
-    display: none;
   }
 
   nav ul .search-icon {
