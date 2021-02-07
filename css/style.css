@@ -47,6 +47,27 @@ a:focus {
   transition: ease all 0.5s;
 }
 
+#back {
+  background-image: url("../images/back-image.jpg");
+  position: absolute;
+  z-index: -1000;
+  width: 100%;
+  height: 6000px;
+}
+
+.letras {
+  position: relative;
+  z-index: -500;
+}
+.letras img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+  position: fixed;
+  top: -10%;
+  left: 1%;
+}
+
 nav {
   background: #131921;
   border: 1px solid #000;
@@ -108,27 +129,6 @@ nav ul div.items :hover {
 
 .contact {
   width: 102px;
-}
-
-#back {
-  background-image: url(https://i.ibb.co/7v48jVg/back-image.jpg);
-  position: absolute;
-  z-index: -1000;
-  width: 100%;
-  height: 6000px;
-}
-
-.letras {
-  position: relative;
-  z-index: -500;
-}
-.letras img {
-  display: block;
-  width: 100%;
-  object-fit: contain;
-  position: fixed;
-  top: -10%;
-  left: 1%;
 }
 
 #login {
