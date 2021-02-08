@@ -825,6 +825,10 @@ a {
 }
 
 @media screen and (max-width: 970px) {
+  #back {
+    background: url(../images/back-image.jpg);
+  }
+
   .topnav .items {
     float: none;
     position: fixed;
@@ -893,6 +897,10 @@ a {
   }
 }
 @media screen and (max-width: 490px) {
+  #back {
+    background: url(../images/back-image.jpg);
+  }
+
   .logo img {
     position: fixed;
     left: 20%;
@@ -903,6 +911,10 @@ a {
   }
 }
 @media screen and (max-width: 310px) {
+  #back {
+    background: url(../images/back-image.jpg);
+  }
+
   .logo img {
     position: fixed;
     left: 15%;
