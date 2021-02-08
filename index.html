@@ -2,210 +2,224 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wings</title>
-    <!-- Favicon -->
-    <link rel="shorcut icon" type="image/png" href="images/favicon.png">
-    <!--External links -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <!-- main css -->
-    <link rel="stylesheet" href="css/style.css">
-    <!--local bootstrap css-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!--animate css-->
-    <link rel="stylesheet" href="css/animate-wow.css">
-    <!-- Fonts -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <!-- smoot scroll -->
-    <script src="js/smooth-scroll.min.js"></script>
-    
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Wings</title>
+   <!-- Favicon -->
+   <link rel="shorcut icon" type="image/png" href="images/favicon.png">
+   <!--External links -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+   <!-- main css -->
+   <link rel="stylesheet" href="css/style.css">
+   <!--local bootstrap css-->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!--animate css-->
+   <link rel="stylesheet" href="css/animate-wow.css">
+   <!-- Fonts -->
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+   <!-- smoot scroll -->
+   <script src="js/smooth-scroll.min.js"></script>
+
 </head>
 
-<body  id="back" >
-            <!--NABVAR-->
+<body id="back">
+   <!--NABVAR-->
 
-    <nav class="topnav">
-        <ul class="container-fluid">
-            <li class="logo"><img src="images/wings front.svg" alt="wings" height="100" width="150"></li>
-             <label for="nav-toggle" class="burger">
-                 <div class="line"></div>
-                 <div class="line"></div>
-                 <div class="line"></div>
-             </label>
-             <input id="nav-toggle" type="checkbox">
-            <div class="items">
-               <li class="designs"><a href="#designs">Designs</a></li>
-                <li class="services"><a href="#services">Services</a></li>
-                <li class="about"><a href="#about">About</a></li>
-                <li class="contact"><a href="#contact">Contact</a></li>
+   <nav class="topnav">
+      <ul class="container-fluid">
+         <li class="logo"><img src="images/wings front.svg" alt="wings" height="100" width="150"></li>
+         <label for="nav-toggle" class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+         </label>
+         <input id="nav-toggle" type="checkbox">
+         <div class="items">
+            <li class="designs"><a href="#designs">Designs</a></li>
+            <li class="services"><a href="#services">Services</a></li>
+            <li class="about"><a href="#about">About</a></li>
+            <li class="contact"><a href="#contact">Contact</a></li>
+         </div>
+         <button onclick="document.getElementById('01').style.display='block'" style="width:auto;" type="button"
+            class="btn btn-outline-info" id="login">Log in</button>
+         <div class="modal animate" id="01">
+            <div class="imgcontainer">
+               <span onclick="document.getElementById('01').style.display='none'" class="close1"
+                  title="Close Modal">&times;</span>
             </div>
-            <button  onclick="document.getElementById('01').style.display='block'" style="width:auto;" type="button" class="btn btn-outline-info" id="login">Log in</button>                                                
-            <div class="modal animate" id="01">
-               <div class="imgcontainer">
-                   <span onclick="document.getElementById('01').style.display='none'" class="close1" title="Close Modal">&times;</span>
-                 </div>                                                                     
-              <div class="row">
-                 <div class="col-md-6 mx-auto p-0">
-                         <div class="login-box">
-                             <div class="login-snip"> <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Login</label> <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
-                                 <div class="login-space">
-                                     <div class="login">
-                                         <div class="group"> <label for="user" class="label">Username</label> <input id="user" type="text" class="input" placeholder="Enter your username"> </div>
-                                         <div class="group"> <label for="pass" class="label">Password</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Enter your password"> </div>
-                                         <div class="group"> <input id="check" type="checkbox" class="check" checked> <label for="check"><span class="icon"></span> Keep me Signed in</label> </div>
-                                         <div class="group"> <input type="submit" class="button" value="Sign In"> </div>
-                                         <div class="hr"></div>
-                                         <div class="foot"> <a href="#">Forgot Password?</a> </div>
-                                     </div>
-                                     <div class="sign-up-form">
-                                         <div class="group"> <label for="user" class="label">Username</label> <input id="user" type="text" class="input" placeholder="Create your Username"> </div>
-                                         <div class="group"> <label for="pass" class="label">Password</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Create your password"> </div>
-                                         <div class="group"> <label for="pass" class="label">Repeat Password</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Repeat your password"> </div>
-                                         <div class="group"> <label for="pass" class="label">Email Address</label> <input id="pass" type="text" class="input" placeholder="Enter your email address"> </div>
-                                         <div class="group"> <input type="submit" class="button" value="Sign Up"> </div>
-                                         <div class="hr"></div>
-                                         <div class="foot"> <label for="tab-1">Already Member?</label> </div>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
-                 </div>
-             </div>
-          </div>
-        </ul>
-    </nav>
-             <!-- Back Image -->
-    <section class="container-fluid">
-    <div class="letras"><img src="images/WINGS LETRAS PRO.svg" alt="wings letras" width="1000" height="800"></div>
-    </section>
-             <!-- Products -->
-    <div class="page-content-product">
-        <div class="main-product">
-           <div class="container">
-              <div class="row clearfix">
-                 <div class="find-box">
-                    <h1>Find your design<br> here.</h1>
-                    <h4>It has never been easier.</h4>
-                    <div class="product-sh">
-                       <div class="col-sm-6">
-                          <div class="form-sh">
-                             <input type="text" placeholder="Search something you love" >
-                          </div>
-                       </div>
-                       <div class="col-sm-3">
-                          <div class="form-sh">
-                             <select class="selectpicker">
-                                <option>All</option>
-                                <option>Art</option>
-                                <option>Characters</option>
-                                <option>Fashion</option>
-                                <option>Home</option>
-                                <option>Games</option>
-                                <option>Life Hacks</option>
-                                <option>Naughty</option>
-                                <option>Tools</option>
-                                <option>Tecnology</option>
-                             </select>
-                          </div>
-                       </div>
-                       <div class="col-sm-3">
-                          <div class="form-sh"> <a class="btn" href="#">Search</a> </div>
-                       </div>
-                       <p id="designs">Or simply<a href="#"> click here </a> and get inspired!</p>
-                    </div>
-                 </div>
-              </div>
-              <div class="row clearfix">
-                 <div class="col-lg-3 col-sm-6 col-md-3">
-                    <a href="productpage.html" target="_blank">
-                       <div class="box-img">
-                          <h4>Foldable Bender</h4>
-                          <img src="images/product/1.png" alt="img1" />
-                       </div>
-                    </a>
-                 </div>
-                 <div class="col-lg-3 col-sm-6 col-md-3">
-                    <a href="productpage.html" target="_blank">
-                       <div class="box-img">
-                          <h4>Duff beer crate</h4>
-                          <img src="images/product/2.png" alt="img2" />
-                       </div>
-                    </a>
-                 </div>
-                 <div class="col-lg-3 col-sm-6 col-md-3">
-                    <a href="productpage.html" target="_blank">
-                       <div class="box-img">
-                          <h4>Drone frame</h4>
-                          <img src="images/product/4.png" alt="img3" />
-                       </div>
-                    </a>
-                 </div>
-                 <div class="col-lg-3 col-sm-6 col-md-3">
-                    <a href="productpage.html" target="_blank">
-                       <div class="box-img">
-                          <h4>Mini Darth Vader</h4>
-                          <img src="images/product/5.png" alt="img4" />
-                       </div>
-                    </a>
-                 </div>
-                 <div class="col-lg-3 col-sm-6 col-md-3">
-                    <a href="productpage.html" target="_blank">
-                       <div class="box-img">
-                          <h4>Mr Chispa Keychain</h4>
-                          <img src="images/product/10.png" alt="img10" />
-                       </div>
-                    </a>
-                 </div>
-                 <div class="col-lg-3 col-sm-6 col-md-3">
-                    <a href="productpage.html" target="_blank">
-                       <div class="box-img">
-                          <h4>Sponge Bed</h4>
-                          <img src="images/product/11.png" alt="img11" />
-                       </div>
-                    </a>
-                 </div>
-                 <div class="col-lg-3 col-sm-6 col-md-3">
-                    <a href="productpage.html" target="_blank">
-                       <div class="box-img">
-                          <h4>Wall-e</h4>
-                          <img src="images/product/12.png" alt="img12" />
-                       </div>
-                    </a>
-                 </div>
-                 <div class="col-lg-3 col-sm-6 col-md-3">
-                    <a href="productpage.html" target="_blank">
-                       <div class="box-img">
-                          <h4>Charmander</h4>
-                          <img src="images/product/13.png" alt="img13" />
-                       </div>
-                    </a>
-                 </div>
-                 <div class="categories_link">
-                    <a href="#">Browse all categories here</a>
-                 </div>
-              </div>
-           </div>
-        </div>
-     </div>
-     <!------------------------------------------------------------------------------------
+            <div class="row">
+               <div class="col-md-6 mx-auto p-0">
+                  <div class="login-box">
+                     <div class="login-snip"> <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label
+                           for="tab-1" class="tab">Login</label> <input id="tab-2" type="radio" name="tab"
+                           class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+                        <div class="login-space">
+                           <div class="login">
+                              <div class="group"> <label for="user" class="label">Username</label> <input id="user"
+                                    type="text" class="input" placeholder="Enter your username"> </div>
+                              <div class="group"> <label for="pass" class="label">Password</label> <input id="pass"
+                                    type="password" class="input" data-type="password"
+                                    placeholder="Enter your password"> </div>
+                              <div class="group"> <input id="check" type="checkbox" class="check" checked> <label
+                                    for="check"><span class="icon"></span> Keep me Signed in</label> </div>
+                              <div class="group"> <input type="submit" class="button" value="Sign In"> </div>
+                              <div class="hr"></div>
+                              <div class="foot"> <a href="#">Forgot Password?</a> </div>
+                           </div>
+                           <div class="sign-up-form">
+                              <div class="group"> <label for="user" class="label">Username</label> <input id="user"
+                                    type="text" class="input" placeholder="Create your Username"> </div>
+                              <div class="group"> <label for="pass" class="label">Password</label> <input id="pass"
+                                    type="password" class="input" data-type="password"
+                                    placeholder="Create your password"> </div>
+                              <div class="group"> <label for="pass" class="label">Repeat Password</label> <input
+                                    id="pass" type="password" class="input" data-type="password"
+                                    placeholder="Repeat your password"> </div>
+                              <div class="group"> <label for="pass" class="label">Email Address</label> <input id="pass"
+                                    type="text" class="input" placeholder="Enter your email address"> </div>
+                              <div class="group"> <input type="submit" class="button" value="Sign Up"> </div>
+                              <div class="hr"></div>
+                              <div class="foot"> <label for="tab-1">Already Member?</label> </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </ul>
+   </nav>
+   <!-- Back Image -->
+   <section class="container-fluid">
+      <div class="letras"><img src="images/WINGS LETRAS PRO.svg" alt="wings letras" width="1000" height="800"></div>
+   </section>
+   <!-- Products -->
+   <div class="page-content-product">
+      <div class="main-product">
+         <div class="container">
+            <div class="row clearfix">
+               <div class="find-box">
+                  <h1>Find your design<br> here.</h1>
+                  <h4>It has never been easier.</h4>
+                  <div class="product-sh">
+                     <div class="col-sm-6">
+                        <div class="form-sh">
+                           <input type="text" placeholder="Search something you love">
+                        </div>
+                     </div>
+                     <div class="col-sm-3">
+                        <div class="form-sh">
+                           <select class="selectpicker">
+                              <option>All</option>
+                              <option>Art</option>
+                              <option>Characters</option>
+                              <option>Fashion</option>
+                              <option>Home</option>
+                              <option>Games</option>
+                              <option>Life Hacks</option>
+                              <option>Naughty</option>
+                              <option>Tools</option>
+                              <option>Tecnology</option>
+                           </select>
+                        </div>
+                     </div>
+                     <div class="col-sm-3">
+                        <div class="form-sh"> <a class="btn" href="#">Search</a> </div>
+                     </div>
+                     <p id="designs">Or simply<a href="#"> click here </a> and get inspired!</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row clearfix">
+               <div class="col-lg-3 col-sm-6 col-md-3">
+                  <a href="productpage.html" target="_blank">
+                     <div class="box-img">
+                        <h4>Foldable Bender</h4>
+                        <img src="images/product/1.png" alt="img1" />
+                     </div>
+                  </a>
+               </div>
+               <div class="col-lg-3 col-sm-6 col-md-3">
+                  <a href="productpage.html" target="_blank">
+                     <div class="box-img">
+                        <h4>Duff beer crate</h4>
+                        <img src="images/product/2.png" alt="img2" />
+                     </div>
+                  </a>
+               </div>
+               <div class="col-lg-3 col-sm-6 col-md-3">
+                  <a href="productpage.html" target="_blank">
+                     <div class="box-img">
+                        <h4>Drone frame</h4>
+                        <img src="images/product/4.png" alt="img3" />
+                     </div>
+                  </a>
+               </div>
+               <div class="col-lg-3 col-sm-6 col-md-3">
+                  <a href="productpage.html" target="_blank">
+                     <div class="box-img">
+                        <h4>Mini Darth Vader</h4>
+                        <img src="images/product/5.png" alt="img4" />
+                     </div>
+                  </a>
+               </div>
+               <div class="col-lg-3 col-sm-6 col-md-3">
+                  <a href="productpage.html" target="_blank">
+                     <div class="box-img">
+                        <h4>Mr Chispa Keychain</h4>
+                        <img src="images/product/10.png" alt="img10" />
+                     </div>
+                  </a>
+               </div>
+               <div class="col-lg-3 col-sm-6 col-md-3">
+                  <a href="productpage.html" target="_blank">
+                     <div class="box-img">
+                        <h4>Sponge Bed</h4>
+                        <img src="images/product/11.png" alt="img11" />
+                     </div>
+                  </a>
+               </div>
+               <div class="col-lg-3 col-sm-6 col-md-3">
+                  <a href="productpage.html" target="_blank">
+                     <div class="box-img">
+                        <h4>Wall-e</h4>
+                        <img src="images/product/12.png" alt="img12" />
+                     </div>
+                  </a>
+               </div>
+               <div class="col-lg-3 col-sm-6 col-md-3">
+                  <a href="productpage.html" target="_blank">
+                     <div class="box-img">
+                        <h4>Charmander</h4>
+                        <img src="images/product/13.png" alt="img13" />
+                     </div>
+                  </a>
+               </div>
+               <div class="categories_link">
+                  <a href="#">Browse all categories here</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!------------------------------------------------------------------------------------
                                           ABOUT US 
       ------------------------------------------------------------------------------------->
-     <section id="about">
-        <h4>Why do we design things?</h4>
-        <p>Because there is nothing more satisfying to create.<br>
-        Welcome to wings, here you can promote your 3D designs,<br>
-          look for a model to print or just get inspired to create something new<br> 
-          and be part of a amazing community.</p>
+   <section id="about">
+      <h4>Why do we design things?</h4>
+      <p>Because there is nothing more satisfying to create.<br>
+         Welcome to wings, here you can promote your 3D designs,<br>
+         look for a model to print or just get inspired to create something new<br>
+         and be part of a amazing community.</p>
 
-     </section>
-                               <!-----------------------------------
+   </section>
+   <!-----------------------------------
                                              FOOTER 
                                  ----------------------------------->
-     <footer>
+   <footer>
       <div class="main-footer">
          <div class="container">
             <div class="row">
@@ -264,37 +278,39 @@
             </div>
          </div>
       </div>
-      <div class="copyright"  id="contact">
+      <div class="copyright" id="contact">
          <div class="container">
             <div class="row">
                <div class="col-md-8">
-                  <p><img width="120" src="images/wings front.svg" alt="copyright"> All Rights Reserved Wings Designs © 2021</p>
+                  <p><img width="120" src="images/wings front.svg" alt="copyright"> All Rights Reserved Wings Designs ©
+                     2021</p>
                </div>
                <div class="col-md-4">
                   <ul class="list-inline socials">
                      <li>
                         <a href="https://www.facebook.com/wings3dprints" target="_blank">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                           <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
                      </li>
                      <li>
                         <a href="sin-hacer" target="_blank">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                           <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
                      </li>
                      <li>
                         <a href="https://www.instagram.com/wings3d/?hl=es-la" target="_blank">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                           <i class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                      </li>
                      <li>
                         <a href="sin-hacer" target="_blank">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                           <i class="fa fa-linkedin" aria-hidden="true"></i>
                         </a>
                      </li>
                      <li>
-                        <a href="https://www.google.com.ar/maps/place/Wings+3D+Designs/@-34.8461966,-58.0848732,19z/data=!4m5!3m4!1s0x95a2df9bb38f3fbb:0x735f13c92d280fd0!8m2!3d-38.4193299!4d-63.5989206?hl=es-419&authuser=0" target="_blank">
-                        <i class="fa fa-google" aria-hidden="true"></i>
+                        <a href="https://www.google.com.ar/maps/place/Wings+3D+Designs/@-34.8461966,-58.0848732,19z/data=!4m5!3m4!1s0x95a2df9bb38f3fbb:0x735f13c92d280fd0!8m2!3d-38.4193299!4d-63.5989206?hl=es-419&authuser=0"
+                           target="_blank">
+                           <i class="fa fa-google" aria-hidden="true"></i>
                         </a>
                      </li>
                   </ul>
@@ -306,44 +322,49 @@
    <!-- ----------------------------------------------------------------------------------------------------------------------------------
                                                       SCRIPTS
    -------------------------------------------------------------------------------------------------------------------------------- -->
-    <!-- smoot scroll -->
-   
+   <!-- smoot scroll -->
+
    <script>
       var scroll = new SmoothScroll('a[href*="#"]', {
-	speed: 800
-});
+         speed: 800
+      });
    </script>
-   
+
    <!-- LogIn Form -->
-   
+
    <script>
-   // Get the modal
+      // Get the modal
       var modal = document.getElementById('01');
-      
-   // When the user clicks anywhere outside of the modal, close it
-      window.onclick = function(event) {
-          if (event.target == modal) {
-              modal.style.display = "none";
-          }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+         if (event.target == modal) {
+            modal.style.display = "none";
+         }
       }
    </script>
-             <!-- BOOTSTRAP -->
+   <!-- BOOTSTRAP -->
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" 
-     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <script> src="js/bootstrap.bundle.min.js"</script><!--link local js-->
-    <script src="js/navbar-movile.js"></script>
-          <!--main js--> 
-          <script src="js/jquery-1.12.4.min.js"></script> 
-          <!--bootstrap js--> 
-          <script src="js/bootstrap.min.js"></script> 
-          <script src="js/bootstrap-select.min.js"></script>
-          <script src="js/slick.min.js"></script> 
-          <script src="js/wow.min.js"></script>
-          <!--custom js--> 
-          <script src="js/custom.js"></script>
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+   </script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+   </script>
+   <script>
+      src = "js/bootstrap.bundle.min.js"
+   </script>
+   <!--link local js-->
+   <script src="js/navbar-movile.js"></script>
+   <!--main js-->
+   <script src="js/jquery-1.12.4.min.js"></script>
+   <!--bootstrap js-->
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/bootstrap-select.min.js"></script>
+   <script src="js/slick.min.js"></script>
+   <script src="js/wow.min.js"></script>
+   <!--custom js-->
+   <script src="js/custom.js"></script>
 </body>
 
 </html>

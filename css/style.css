@@ -48,7 +48,7 @@ a:focus {
 }
 
 #back {
-  background-image: url("../images/back-image.jpg");
+  background-image: url("../images/back-image.png");
   position: absolute;
   z-index: -1000;
   width: 100%;
@@ -626,7 +626,9 @@ a {
   font-family: "Montserrat", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   background-color: rgba(9, 39, 73, 0.5);
 }
-#about h4, #about b, #about p {
+#about h4,
+#about b,
+#about p {
   color: rgba(93, 73, 143, 0.575);
   font-size: 40px;
   font-weight: 900;
@@ -826,7 +828,7 @@ a {
 
 @media screen and (max-width: 970px) {
   #back {
-    background: url(../images/back-image.jpg);
+    background-image: url(../images/back-image-970px.png);
   }
 
   .topnav .items {
@@ -898,7 +900,7 @@ a {
 }
 @media screen and (max-width: 490px) {
   #back {
-    background: url(../images/back-image.jpg);
+    background-image: url(../images/back-image-490px.png);
   }
 
   .logo img {
@@ -912,7 +914,7 @@ a {
 }
 @media screen and (max-width: 310px) {
   #back {
-    background: url(../images/back-image.jpg);
+    background-image: url(../images/back-image-310px.png);
   }
 
   .logo img {
