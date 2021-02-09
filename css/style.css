@@ -522,7 +522,8 @@ a {
   line-height: 38px;
   font-size: 22px;
   font-weight: 500;
-  border-radius: 3px;
+  border-radius: 25px;
+  border-bottom: solid #007dea 4px;
 }
 
 .form-sh a.btn:hover {
