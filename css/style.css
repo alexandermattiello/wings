@@ -151,7 +151,7 @@ nav ul div.items :hover {
   /* Full width */
   height: 100%;
   /* Full height */
-  overflow: auto;
+  overflow: auto !important;
   /* Enable scroll if needed */
   background-color: black;
   /* Fallback color */
@@ -220,7 +220,7 @@ nav ul div.items :hover {
   height: 100%;
   position: absolute;
   padding: 90px 70px 50px 70px;
-  background: rgba(0, 33, 77, 0.7);
+  background: rgba(0, 33, 77, 0.2);
   border-radius: 50px;
 }
 
