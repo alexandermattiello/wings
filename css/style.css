@@ -829,7 +829,7 @@ a {
 
 @media screen and (max-width: 970px) {
   #back {
-    background-image: url(../images/back-image-970px.png);
+    background-image: url(../images/back-image.png);
   }
 
   .topnav .items {
@@ -901,7 +901,7 @@ a {
 }
 @media screen and (max-width: 490px) {
   #back {
-    background-image: url(../images/back-image-490px.png);
+    background-image: url(../images/back-image.png);
   }
 
   .logo img {
@@ -915,7 +915,7 @@ a {
 }
 @media screen and (max-width: 310px) {
   #back {
-    background-image: url(../images/back-image-310px.png);
+    background-image: url(../images/back-image.png);
   }
 
   .logo img {
