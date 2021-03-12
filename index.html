@@ -172,15 +172,15 @@
                         </div>
                      </div>
                      <div class="col-sm-3">
-                        <div class="form-sh"> <a class="btn" href="#">Search</a> </div>
+                        <div class="form-sh"> <a class="btn" href="nada-aun">Search</a> </div>
                      </div>
-                     <p id="designs">Or simply<a href="#"> click here </a> and get inspired!</p>
+                     <p id="designs">Or simply<a href="https://gallery.autodesk.com/" target="_blank"> click here </a> and get inspired!</p>
                   </div>
                </div>
             </div>
             <div class="row clearfix">
                <div class="col-lg-3 col-sm-6 col-md-3">
-                  <a href="productpage.html" target="_blank">
+                  <a href="productpage.html" id="p1">
                      <div class="box-img">
                         <h4>Foldable Bender</h4>
                         <img src="images/product/1.png" alt="img1" />
@@ -188,7 +188,7 @@
                   </a>
                </div>
                <div class="col-lg-3 col-sm-6 col-md-3">
-                  <a href="productpage.html" target="_blank">
+                  <a href="productpage.html" id="p2">
                      <div class="box-img">
                         <h4>Duff beer crate</h4>
                         <img src="images/product/2.png" alt="img2" />
@@ -196,7 +196,7 @@
                   </a>
                </div>
                <div class="col-lg-3 col-sm-6 col-md-3">
-                  <a href="productpage.html" target="_blank">
+                  <a href="productpage.html" id="p3">
                      <div class="box-img">
                         <h4>Drone frame</h4>
                         <img src="images/product/4.png" alt="img3" />
@@ -204,7 +204,7 @@
                   </a>
                </div>
                <div class="col-lg-3 col-sm-6 col-md-3">
-                  <a href="productpage.html" target="_blank">
+                  <a href="productpage.html" id="p4">
                      <div class="box-img">
                         <h4>Mini Darth Vader</h4>
                         <img src="images/product/5.png" alt="img4" />
@@ -212,7 +212,7 @@
                   </a>
                </div>
                <div class="col-lg-3 col-sm-6 col-md-3">
-                  <a href="productpage.html" target="_blank">
+                  <a href="productpage.html" id="p10">
                      <div class="box-img">
                         <h4>Mr Chispa Keychain</h4>
                         <img src="images/product/10.png" alt="img10" />
@@ -220,7 +220,7 @@
                   </a>
                </div>
                <div class="col-lg-3 col-sm-6 col-md-3">
-                  <a href="productpage.html" target="_blank">
+                  <a href="productpage.html" id="p11">
                      <div class="box-img">
                         <h4>Sponge Bed</h4>
                         <img src="images/product/11.png" alt="img11" />
@@ -228,7 +228,7 @@
                   </a>
                </div>
                <div class="col-lg-3 col-sm-6 col-md-3">
-                  <a href="productpage.html" target="_blank">
+                  <a href="productpage.html" id="p12">
                      <div class="box-img">
                         <h4>Wall-e</h4>
                         <img src="images/product/12.png" alt="img12" />
@@ -236,7 +236,7 @@
                   </a>
                </div>
                <div class="col-lg-3 col-sm-6 col-md-3">
-                  <a href="productpage.html" target="_blank">
+                  <a href="productpage.html" id="p13">
                      <div class="box-img">
                         <h4>Charmander</h4>
                         <img src="images/product/13.png" alt="img13" />
@@ -369,25 +369,14 @@
    -------------------------------------------------------------------------------------------------------------------------------- -->
    <!-- smoot scroll -->
 
-   <script>
-      var scroll = new SmoothScroll('a[href*="#"]', {
-         speed: 800
-      });
+   <script src="js/smootscroll.js">
    </script>
 
    <!-- LogIn Form -->
 
-   <script>
-      // Get the modal
-      var modal = document.getElementById('01');
-
-      // When the user clicks anywhere outside of the modal, close it
-      window.onclick = function (event) {
-         if (event.target == modal) {
-            modal.style.display = "none";
-         }
-      }
+   <script src="js/loginform.js">
    </script>
+
    <!-- BOOTSTRAP -->
 
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
